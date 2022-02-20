@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+:root {
+    --white-color: #FFFFFF;
+    --black-color: #222221;
+    --yellow-color: #ECFF00;
+}
+
+body {
+    width: 100%;
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.btn-transparent {
+    width: 188px;
+    height: 48px;
+    background-color: transparent;
+    color: var(--white-color);
+    border: 4px solid var(--yellow-color);
+    font-size: inherit;
+    line-height: 19.5px;
+    font-weight: 800;
+}
+.btn-yellow {
+    width: 188px;
+    height: 48px;
+    background-color: var(--yellow-color);
+    color: var(--black-color);
+    border: 4px solid var(--black-color);
+    font-size: inherit;
+    line-height: 19.5px;
+    font-weight: 800;
+}
+li {
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+/* Header styling */
+
+.header-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 96px;
+    margin: 0 auto;
+    background-color: var(--black-color);
+}
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    margin: 0;
+    padding-top: 38px;
+    padding-right: 324px;
+    list-style-type: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: var(--white-color);
+}
+.nav-item {
+    padding-left: 64px;
+}
+.nav-item:hover {
+    color: var(--yellow-color);
+}
+
+/* Main section styling */
+.contacts-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 256px;
+    height: 1080px;
+    padding-top: 60px;
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+.logo {
+    margin-bottom: 180px;
+}
+.main-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 700;
+}
+.phone-number {
+    margin-top: 29px;
+    margin-bottom: 82px;
+}
+.mail-address {
+    margin-top: 31px;
+    margin-bottom: 77px;
+}
+.location {
+    width: 120px;
+    margin-top: 29px;
+    margin-bottom: 176px;
+    text-align: center;
+}
+.socials {
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 60px;
+}
+.facebook {
+    padding-right: 66px;
+    padding-left: 40px;
+}
+.social-link:hover {
+    color: var(--white-color);
+}
+
+.intro {
+    background-image: url(./assets/img/backgrd.jpg);
+    background-repeat: no-repeat;
+}
+.intro-info {
+    width: 725px;
+    padding-top: 695px;
+    padding-left: 325px;
+    padding-bottom: 119px;
+}
+h2 {
+    font-size: 2rem;
+    line-height: 46px;
+    font-weight: 800;
+    color: var(--yellow-color);
+}
+.work-description {
+    width: 722px;
+    height: 128px;
+    text-align: left;
+    font-size: inherit;
+    margin: 0;
+    line-height: 25.6px;
+    font-weight: 700;
+    color: var(--white-color);
+}
+#contact-btn {
+    margin-left: 420px;
+}
+.img-man img {
+    position: absolute;
+    top: 287px;
+    left: 1194px;
+}
+.wrapper {
+    margin-left: 324px;
+    padding-top: 165px;
+}
+.about-title {
+    margin-bottom: 51px;
+    margin-top: 0;
+    color: var(--black-color);
+}
+.about-description {
+    width: 1272px;
+    height: 188px;
+    margin-top: 0;
+    margin-bottom: 159px;
+    font-size: inherit;
+    font-weight: 500;
+    line-height: 25.6px;
+    text-align: left;
+}
+.certificates {
+    width: 1596px;
+    height: 144px;
+    padding-left: 220px;
+    padding-right: 544px;
+    background-color: var(--yellow-color);
+}
+.certificates-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding-left: 0;
+    padding-top: 45px;
+    list-style-type: none;
+}
+.cert-item p {
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 29.26px;
+}
+.services-title {
+    color: var(--black-color);
+    margin-bottom: 80px;
+    margin-top: 0;
+}
+.services-boxes {
+    display: grid;
+    grid-template-columns: 282px 282px 282px 282px;
+    column-gap: 48px;
+}
+.box img {
+    margin-bottom: 34px;
+    margin-top: 30px;
+}
+#img-house {
+    margin-top: 0;
+}
+.box h3 {
+    margin: 0;
+    font-size: 24px;
+    line-height: 29.26px;
+    font-weight: 800;
+}
+.service-description {
+    line-height: 25.6px;
+    margin: 0;
+}
+
+
+
+
+
+
