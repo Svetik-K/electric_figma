@@ -127,8 +127,10 @@ li {
 }
 
 .intro {
-    background-image: url(./assets/img/backgrd.jpg);
+    background: linear-gradient(35.11deg, rgba(34, 34, 33, 0.8) 8.51%, rgba(34, 34, 33, 0) 42.93%), url(./assets/img/backgrd.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+
 }
 .intro-info {
     width: 725px;
@@ -157,8 +159,8 @@ h2 {
 }
 .img-man img {
     position: absolute;
-    top: 287px;
     left: 1194px;
+    top: 287px;
 }
 .wrapper {
     margin-left: 324px;
@@ -200,6 +202,7 @@ h2 {
     font-weight: 800;
     line-height: 29.26px;
 }
+/* Services */
 .services-title {
     color: var(--black-color);
     margin-bottom: 80px;
@@ -210,9 +213,15 @@ h2 {
     grid-template-columns: 282px 282px 282px 282px;
     column-gap: 48px;
 }
+.box {
+    background-image: url(./assets/img/yellow_cube.jpg);
+    background-position: top 56px left;
+    background-repeat: no-repeat;
+}
 .box img {
     margin-bottom: 34px;
     margin-top: 30px;
+    padding-left: 12px;
 }
 #img-house {
     margin-top: 0;
@@ -226,6 +235,46 @@ h2 {
 .service-description {
     line-height: 25.6px;
     margin: 0;
+}
+/* Latest works */
+#works {
+    margin-top: 150px;
+    margin-bottom: 103px;
+    padding-top: 0;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 48px;
+    row-gap: 48px;
+}
+.card {
+    width: 382px;
+    height: 392px;
+    padding: 68px 62px 15px;
+    background-color: var(--yellow-color);
+    color: var(--black-color);
+    text-align: left;
+}
+.object, .task {
+    margin: 0;
+    font-size: 24px;
+    line-height: 29.26px;
+    font-weight: 800;
+}
+.card p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 21.94px;
+    font-weight: 500;
+}
+.round-btn {
+    float: right;
+    margin-top: 110px;
+    margin-right: -32px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 
