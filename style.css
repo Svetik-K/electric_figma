@@ -42,6 +42,9 @@ li {
     cursor: pointer;
     transition: 0.8s;
 }
+.content-wrapper {
+    margin: 0 auto;
+}
 
 /* Header styling */
 
@@ -130,6 +133,7 @@ li {
     background: linear-gradient(35.11deg, rgba(34, 34, 33, 0.8) 8.51%, rgba(34, 34, 33, 0) 42.93%), url(./assets/img/backgrd.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top left;
 
 }
 .intro-info {
@@ -244,12 +248,11 @@ h2 {
 }
 .cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 382px 382px 382px;
     column-gap: 48px;
     row-gap: 48px;
 }
 .card {
-    width: 382px;
     height: 392px;
     padding: 68px 62px 15px;
     background-color: var(--yellow-color);
