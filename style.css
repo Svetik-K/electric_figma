@@ -59,8 +59,6 @@ h2 {
 
 .header-container {
     position: fixed;
-    top: 0;
-    left: 0;
     width: 1920px;
     height: 96px;
     margin: 0 auto;
@@ -86,6 +84,9 @@ h2 {
 }
 
 /* Main section styling */
+
+ /* Styling aside section */
+
 .contacts-container {
     display: flex;
     flex-direction: column;
@@ -94,10 +95,13 @@ h2 {
     position: fixed;
     top: 0;
     width: 256px;
-    height: 1080px;
+    height: 1065px;
     padding-top: 60px;
     background-color: var(--black-color);
     color: var(--white-color);
+}
+.contacts-container img {
+    margin-left: 0;
 }
 .logo {
     margin-bottom: 180px;
@@ -138,6 +142,8 @@ h2 {
     color: var(--white-color);
 }
 
+/* Intro section */
+
 .intro {
     width: 100%;
     height: 100%;
@@ -170,11 +176,6 @@ h2 {
 #contact-btn {
     margin-left: 420px;
 }
-.img-man img {
-    position: absolute;
-    left: 1194px;
-    top: 287px;
-}
 .wrapper {
     margin-left: 324px;
     padding-top: 165px;
@@ -203,17 +204,22 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0;
+    margin: auto 0;
     padding-left: 0;
-    padding-top: 45px;
+    padding-top: 35px;
     list-style-type: none;
+}
+.cert-item img{
+   margin: 0;
 }
 .cert-item p {
     font-size: 1.5rem;
     font-weight: 800;
     line-height: 29.26px;
 }
+
 /* Services section styling */
+
 .services-title {
     color: var(--black-color);
     margin-bottom: 80px;
@@ -232,6 +238,7 @@ h2 {
 .box img {
     margin-bottom: 34px;
     margin-top: 30px;
+    margin-left: 0;
     padding-left: 12px;
 }
 #img-house {
