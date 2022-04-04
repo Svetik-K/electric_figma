@@ -63,6 +63,7 @@ h2 {
     height: 96px;
     margin: 0 auto;
     background-color: var(--black-color);
+    border-bottom: 2px solid var(--white-color);
 }
 .nav-list {
     display: flex;
@@ -99,6 +100,7 @@ h2 {
     padding-top: 60px;
     background-color: var(--black-color);
     color: var(--white-color);
+    border-right: 2px solid var(--white-color);
 }
 .contacts-container img {
     margin-left: 0;
@@ -144,23 +146,36 @@ h2 {
 
 /* Intro section */
 
-.intro {
-    width: 100%;
-    height: 100%;
+.intro-section {
+    height: 1065px;
+    padding-top: 270px;
+    padding-left: 322px;
+    padding-right: 268px;
     background: linear-gradient(35.11deg, rgba(34, 34, 33, 0.8) 8.51%, rgba(34, 34, 33, 0) 42.93%), url(./assets/img/backgrd.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top left;
+}
+.img-man {
+    display: block;
+    padding-left: 90px;
+}
+
+.intro {
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 0 auto;
 
 }
 .intro-info {
     width: 725px;
-    padding-top: 695px;
-    padding-left: 325px;
-    padding-bottom: 119px;
+    height: 300px;
+    padding-top: 300px; 
 }
 .info-title {
     width: 500px;
+    padding-top: 130px;
+    margin-bottom: 30px;
     color: var(--yellow-color);
 }
 .work-description {
@@ -168,14 +183,17 @@ h2 {
     height: 128px;
     text-align: left;
     font-size: inherit;
-    margin: 0;
+    margin-bottom: 12px;
     line-height: 25.6px;
     font-weight: 700;
+    letter-spacing: 1px;
     color: var(--white-color);
 }
 #contact-btn {
     margin-left: 420px;
 }
+
+/* About section styling */
 .wrapper {
     margin-left: 324px;
     padding-top: 165px;
